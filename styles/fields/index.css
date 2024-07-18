@@ -1,4 +1,6 @@
-textarea, select, input { 
+@import url(./droparea.css);
+
+textarea, select, input, input[type="date"]:focus-within  { 
 appearance: none;
 border: 1px solid var(--stroke-default);
 border-radius: .5rem;
