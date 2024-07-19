@@ -37,7 +37,7 @@ left: .5rem;
 
 }
 
-&:hover, &:focus {
+&:hover, &:focus-within {
     border: 1px solid var(--stroke-highlight);
     cursor: pointer;
 

@@ -1,5 +1,6 @@
 .droparea {
-border: 1px dashed var(--stroke-default);
+    border: 1px dashed transparent;
+outline: 1px dashed var(--stroke-default);
 border-radius: .25rem;
 display: grid;
 justify-items: center;
@@ -26,7 +27,7 @@ color: #A8A29E;
 
 &:hover, &:has(input:focus) {
     
-    border-width: 2px;
+    outline-width: 0;
     border-color: var(--stroke-highlight);
     background-color: var(--surface-secondary);
 
