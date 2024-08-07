@@ -40,6 +40,7 @@ margin-right: auto;
 max-width: 31rem;
 
 & > img {
+    object-fit: cover;
     margin-top: 2rem;
 }
 
@@ -55,3 +56,29 @@ margin-bottom: .5rem;
    
 
 } }
+
+@media (width < 80em) {
+   #app {
+    grid-template-columns: 1fr;
+    
+
+& asside {
+grid-row: 1/2;
+padding: 1.5rem;
+& header h2, p {
+    display: none;
+}
+
+& header img {
+height: 2rem;
+width: 100%;
+
+}
+    & > img {
+        height: 14.5rem;
+    }
+
+}
+
+}
+}
