@@ -97,3 +97,26 @@ textarea, select, input, input[type="date"]:focus-within  {
     }
     
     }
+
+    @media (width < 80em) {
+        textarea, select, input, input[type="date"] {
+            width: 19.5rem;
+    }
+
+    input[type="date"]  {
+    
+        &::before {
+display: none;
+        }
+        }
+    
+
+.address {
+
+    & .flex {
+        display: grid;
+    }
+}
+
+
+    }

@@ -27,3 +27,16 @@ button {
 }
 
 }
+
+@media (width < 80em) {
+
+    .actions-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    button {
+        text-align: center;
+        width: 19.5rem;
+    }
+    }

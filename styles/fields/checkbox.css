@@ -40,3 +40,18 @@
 }
 
 }
+
+@media (width < 90em) {
+    .checkbox-wrapper {
+        width: 19.5rem;
+
+        & label {
+            font-weight: 500;
+
+            & strong {
+                font-weight: 600;
+            }
+
+        }
+    }
+}

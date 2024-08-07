@@ -41,7 +41,10 @@ color: #A8A29E;
 
 }
 
+}
 
-
-
+@media (width < 80em) {
+    .droparea {
+        width: 19.5rem;
+    }
 }

@@ -45,15 +45,19 @@ left: .5rem;
         background-image: url(../../assets/icons/radio-hover.svg);
     }
 
-    &:has(:checked) {
-        border: 2px solid var(--stroke-highlight);
- & .radio-img {  background-image: url(../../assets/icons/radio-checked.svg);
- }
+}
+
+&:has(:checked) {
+    border: 2px solid var(--stroke-highlight);
+& .radio-img {  background-image: url(../../assets/icons/radio-checked.svg);
+}
+}
+
+}
+
+@media (width < 80em) {
+    .radio-wrapper {
+        grid-template-columns: repeat(auto-fit, 1fr);
+  
     }
-
 }
-
-
-
-}
-
