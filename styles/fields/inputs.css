@@ -106,7 +106,7 @@ textarea, select, input, input[type="date"]:focus-within  {
     input[type="date"]  {
     
         &::before {
-display: none;
+background-image: none;
         }
         }
     
