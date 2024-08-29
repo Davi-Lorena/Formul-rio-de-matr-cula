@@ -9,7 +9,7 @@
 
 ## Features 🦾
 
-- Desktop-only layout: The UI is designed specifically for desktop screens.
+- Responsive layout: The UI is designed for desktop and mobile screens.
 - Basic form input types: The form supports a variety of input types as listed above.
 
 ## Contributing 🤼‍♂️
