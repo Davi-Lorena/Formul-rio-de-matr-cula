@@ -103,10 +103,7 @@ textarea, select, input, input[type="date"]:focus-within  {
             width: 19.5rem;
     }
 
-    
-    
-
-.address {
+ .address {
 
     & .flex {
         display: grid;
@@ -115,3 +112,4 @@ textarea, select, input, input[type="date"]:focus-within  {
 
 
     }
+
